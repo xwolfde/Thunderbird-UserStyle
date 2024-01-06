@@ -1,0 +1,126 @@
+
+/*
+* Definitions for the folder tree
+*/
+
+#folderPane li[aria-label="ABTEILUNG"] .icon {
+	--icon-color: var(--my-color-important, red) !important;	
+}
+
+#folderPane li[aria-label="ABTEILUNG"] div.container {
+   border-left: 5px solid  var(--my-color-important, red);
+   border-radius: var(--my-border-radius) !important;
+}
+
+#folderPane li[aria-label="Antragsverfahren"] .icon {
+	--icon-color: #ccc !important;
+}
+#folderPane li[aria-label="Redaktion"] .icon {
+	--icon-color: orange !important;
+}
+#folderPane li[aria-label="Schulungszentrum"] .icon {
+	--icon-color: navy !important;
+}
+#folderPane li[aria-label="Personal"] .icon {
+	--icon-color: var(--color-teal-40) !important;
+}
+#folderPane li[aria-label="Berufsausbildung - Azubis und Praktikanten"] .icon {
+	--icon-color: var(--color-purple-60) !important;
+}
+
+
+/* NOTICE */
+
+#folderPane li[aria-label="FAUJobs"] .icon {
+--icon-color:  var(--my-color-notice, orange) !important;
+}
+#folderPane li[aria-label="FAUJobs"] div.container {
+   border-left: 5px solid var(--my-color-notice, orange);
+    border-radius: var(--my-border-radius) !important;
+}
+#folderPane li[aria-label="FAU-Studium"] .icon {
+--icon-color:  var(--my-color-notice, orange) !important;
+}
+#folderPane li[aria-label="FAU-Studium"] div.container {
+   border-left: 5px solid var(--my-color-notice, orange);
+    border-radius: var(--my-border-radius) !important;
+}
+
+
+/* Special CI / Webdesign */
+#folderPane li[aria-label="FAU-Relaunch-2025"] .icon,
+#folderPane li[aria-label="FAU-Markendesign-2021"] .icon {
+       		--icon-color:  var(--color-teal-40) !important;
+}
+#folderPane li[aria-label="FAU-Webdesign"] .container {
+   		border-left: 5px solid var(--color-teal-20);
+  	 	border-radius: var(--my-border-radius) !important;
+}
+#folderPane li[aria-label="FAU-Relaunch-2025"] .container,
+#folderPane li[aria-label="FAU-Markendesign-2021"] .container {
+   		border-left: 5px solid var(--color-teal-40);
+  	 	border-radius: var(--my-border-radius) !important;
+}
+
+
+
+
+
+
+/* MEDIUM */
+#folderPane li[aria-label="CIO"] .icon {
+    --icon-color:  var(--my-color-medium, green) !important;
+}
+
+#folderPane li[aria-label="CIO"] div.container {
+   border-left: 5px solid var(--my-color-medium, green);
+   border-radius: var(--my-border-radius)  !important;
+}
+
+
+
+#folderPane li[aria-label="Matrix"] .icon {
+--icon-color:  var(--my-color-medium, green) !important;
+}
+
+#folderPane li[aria-label="Matrix"] div.container {
+   border-left: 5px solid var(--my-color-medium, green);
+    border-radius: var(--my-border-radius)  !important;
+}
+
+#folderPane li[aria-label="UTN - TUN - Uni Nuernberg"] .icon {
+--icon-color:  var(--my-color-medium, green) !important;
+}
+
+#folderPane li[aria-label="UTN - TUN - Uni Nuernberg"] div.container {
+   border-left: 5px solid var(--my-color-medium, green);
+    border-radius: var(--my-border-radius) !important;
+}
+
+#folderPane li[aria-label="web"] .icon {
+--icon-color:  var(--my-color-medium, green) !important;
+}
+#folderPane li[aria-label="web"] div.container {
+   border-left: 5px solid var(--my-color-medium, green);
+   border-radius: var(--my-border-radius) !important;
+}
+
+/* MISC */
+
+#folderPane li[aria-label="Campo"] .icon {
+--icon-color:  var(--my-color-misc, #ccc) !important;
+}
+
+#folderPane li[aria-label="Campo"] div.container {
+   border-left: 5px solid var(--my-color-misc, #ccc);
+    border-radius: var(--my-border-radius) !important;
+}
+#folderPane li[aria-label="CRIS"] .icon {
+--icon-color:  var(--my-color-misc, #ccc) !important;
+}
+
+#folderPane li[aria-label="CRIS"] div.container {
+   border-left: 5px solid var(--my-color-misc, #ccc);
+   border-radius: var(--my-border-radius) !important;
+}
+

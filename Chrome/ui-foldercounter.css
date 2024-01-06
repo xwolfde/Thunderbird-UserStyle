@@ -1,0 +1,10 @@
+
+/*
+* Definitions for Counters in folder tree
+*/
+
+
+.folder-count-badge.unread-count {
+  --folderpane-unread-count-text: var(--my-folderpane-unread-count-text);
+  --folderpane-unread-count-background: var(--my-folderpane-unread-count-background);
+} 

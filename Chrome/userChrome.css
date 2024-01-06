@@ -1,0 +1,15 @@
+@import url(ui-navigation.css);
+@import url(ui-foldertree.css);
+@import url(ui-foldercounter.css);
+
+:root {
+   --my-color-important: red;
+   --my-color-notice: orange;
+   --my-color-medium: DarkGreen;
+   --my-color-misc: #ccc;
+
+  --my-border-radius: 0px;
+  --my-folderpane-unread-count-background: navy;
+  --my-folderpane-unread-count-text: white;
+ 
+}
